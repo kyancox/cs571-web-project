@@ -14,7 +14,13 @@ export function ActivityCard({ activity }: { activity: Activity }) {
 
   return (
     <article className="group relative flex flex-col gap-3 rounded-[10px] border-[1.5px] border-line bg-surface px-3 pt-3 pb-4 shadow-card transition hover:-translate-y-0.5 hover:border-line-strong hover:shadow-card-hover">
-      <ActivityCover category={activity.category} className="h-[140px]" />
+      <ActivityCover
+        activityId={activity.id}
+        alt={activity.name}
+        category={activity.category}
+        className="h-[140px]"
+        sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 480px) 50vw, 100vw"
+      />
       <h3 className="text-[17px] font-semibold text-ink">
         {/* Stretched link: whole card opens the detail page */}
         <Link
