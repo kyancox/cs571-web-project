@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, ExternalLink, MapPin } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
+import { ActivityMap } from "@/components/activity-map";
 import { ActivityCover, CategoryTag } from "@/components/category";
 import { PageContainer, SectionTitle } from "@/components/page-container";
 import { ACTIVITIES, getActivity } from "@/lib/activities";
@@ -71,25 +72,13 @@ export default async function ActivityPage({ params }: PageProps<"/activity/[id]
       <SectionTitle>About</SectionTitle>
       <p className="max-w-3xl text-[17px] leading-relaxed text-ink-soft">{activity.description}</p>
 
-      <a
-        href={mapsUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group relative flex h-[150px] items-center justify-center gap-3 overflow-hidden rounded-[10px] border border-line bg-lake-soft text-lake transition hover:border-lake/40"
-      >
-        {/* Decorative map grid */}
-        <div
-          aria-hidden
-          className="absolute inset-0 opacity-60 [background-image:linear-gradient(to_right,rgb(29_95_168/0.08)_1px,transparent_1px),linear-gradient(to_bottom,rgb(29_95_168/0.08)_1px,transparent_1px)] [background-size:32px_32px]"
-        />
-        <span className="relative grid size-10 place-items-center rounded-full bg-surface shadow-card">
-          <MapPin size={20} aria-hidden />
-        </span>
-        <span className="relative font-medium">
-          View {activity.location} on Google Maps
-        </span>
-        <ExternalLink size={16} className="relative opacity-60 group-hover:opacity-100" aria-hidden />
-      </a>
+      <SectionTitle>Map</SectionTitle>
+      <ActivityMap
+        name={activity.name}
+        category={activity.category}
+        coords={activity.coords}
+        mapsUrl={mapsUrl}
+      />
     </PageContainer>
   );
 }
