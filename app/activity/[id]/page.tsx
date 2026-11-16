@@ -6,6 +6,7 @@ import { ActivityMap } from "@/components/activity-map";
 import { ActivityCover, CategoryTag } from "@/components/category";
 import { PageContainer, SectionTitle } from "@/components/page-container";
 import { ACTIVITIES, getActivity } from "@/lib/activities";
+import { getActivityImage } from "@/lib/activity-images";
 import { ActivityActions } from "./activity-actions";
 
 export function generateStaticParams() {
@@ -25,6 +26,7 @@ export default async function ActivityPage({ params }: PageProps<"/activity/[id]
   const { id } = await params;
   const activity = getActivity(id);
   if (!activity) notFound();
+  const photo = getActivityImage(activity.id);
 
   const details = [
     ["Location", activity.location],
@@ -47,11 +49,33 @@ export default async function ActivityPage({ params }: PageProps<"/activity/[id]
       </Link>
 
       <div className="flex flex-col gap-10 md:flex-row">
-        <ActivityCover
-          category={activity.category}
-          iconSize={72}
-          className="h-[240px] w-full shrink-0 rounded-xl border border-line sm:h-[340px] md:w-[48%] md:max-w-[560px]"
-        />
+        <figure className="flex w-full shrink-0 flex-col gap-2 md:w-[48%] md:max-w-[560px]">
+          <ActivityCover
+            activityId={activity.id}
+            alt={activity.name}
+            category={activity.category}
+            iconSize={72}
+            sizes="(min-width: 768px) 560px, 100vw"
+            preload
+            className="h-[240px] w-full rounded-xl border border-line sm:h-[340px]"
+          />
+          {photo && (
+            <figcaption className="text-xs text-ink-soft">
+              Photo:{" "}
+              <a href={photo.sourceUrl} className="underline hover:text-ink" target="_blank" rel="noreferrer">
+                {photo.author}
+              </a>
+              ,{" "}
+              {photo.licenseUrl ? (
+                <a href={photo.licenseUrl} className="underline hover:text-ink" target="_blank" rel="noreferrer">
+                  {photo.license}
+                </a>
+              ) : (
+                photo.license
+              )}
+            </figcaption>
+          )}
+        </figure>
         <div className="flex min-w-0 flex-1 flex-col items-start gap-3.5">
           <h1 className="text-3xl font-bold tracking-tight text-ink sm:text-4xl">{activity.name}</h1>
           <CategoryTag category={activity.category} size="md" />

@@ -187,18 +187,6 @@ export const ACTIVITIES: Activity[] = [
       "Take a free guided tour of the Capitol and head up to the observation deck in summer for a panoramic view of the isthmus.",
   },
   {
-    id: "babcock-dairy-store",
-    name: "Babcock Dairy Store",
-    category: "Food",
-    location: "Babcock Hall, Linden Dr",
-    coords: [43.0753, -89.4126],
-    cost: "$",
-    bestTime: "Any warm afternoon",
-    goodFor: "Ice cream runs",
-    description:
-      "Ice cream made on campus by UW's own dairy plant. Try a seasonal flavor and you'll understand the hype.",
-  },
-  {
     id: "uw-arboretum",
     name: "UW Arboretum",
     category: "Outdoors",
@@ -295,43 +283,6 @@ export const ACTIVITIES: Activity[] = [
       "A Wisconsin supper club–style tavern on the Square with fried cheese curds, a long beer list, and a brandy old fashioned to match the name.",
   },
   {
-    id: "greenbush-bakery",
-    name: "Greenbush Bakery",
-    category: "Food",
-    location: "Regent St",
-    coords: [43.0681, -89.4061],
-    cost: "$",
-    bestTime: "Late night",
-    goodFor: "Donut runs, study breaks",
-    description:
-      "A tiny kosher bakery famous for its apple fritters and sour cream donuts. It's open late, so it's the perfect end to a long night.",
-  },
-  {
-    id: "library-mall-food-carts",
-    name: "Library Mall Food Carts",
-    shortName: "Library Mall Carts",
-    category: "Food",
-    location: "Library Mall, end of State St",
-    coords: [43.0757, -89.3995],
-    cost: "$",
-    bestTime: "Weekday lunch, warm months",
-    goodFor: "Cheap lunch between classes",
-    description:
-      "A rotating lineup of food carts parks at the foot of State Street. Walk the row, pick whatever smells best, and eat on the steps of the Memorial Library.",
-  },
-  {
-    id: "short-stack-eatery",
-    name: "Short Stack Eatery",
-    category: "Food",
-    location: "Gorham St, off State St",
-    coords: [43.0742, -89.3908],
-    cost: "$$",
-    bestTime: "Brunch",
-    goodFor: "Brunch with friends",
-    description:
-      "A breakfast spot built around pancakes and scratch-made comfort food, with a Bloody Mary bar that draws a weekend line.",
-  },
-  {
     id: "michaels-frozen-custard",
     name: "Michael's Frozen Custard",
     shortName: "Michael's Custard",
@@ -370,19 +321,6 @@ export const ACTIVITIES: Activity[] = [
       "When it gets cold enough, the city maintains skating on the Tenney Park lagoon. Bring your own skates or rent a pair nearby and loop under the old stone bridges.",
   },
   {
-    id: "elver-park-sledding",
-    name: "Sledding at Elver Park",
-    shortName: "Elver Park Sledding",
-    category: "Outdoors",
-    location: "West side, off McKenna Blvd",
-    coords: [43.0412, -89.5068],
-    cost: "Free",
-    bestTime: "After a big snowfall",
-    goodFor: "Friends, snow days",
-    description:
-      "One of the biggest sledding hills in the city. Grab a cafeteria tray or a real sled and make a day of it after the first good snow.",
-  },
-  {
     id: "james-madison-park",
     name: "James Madison Park",
     category: "Outdoors",
@@ -406,18 +344,6 @@ export const ACTIVITIES: Activity[] = [
     goodFor: "Pairs, beginners",
     description:
       "Lake Wingra is small, calm, and ringed by the Arboretum, which makes it a great lake for first-time paddlers. Rent a canoe or paddleboard by the hour.",
-  },
-  {
-    id: "hoofer-sailing",
-    name: "Hoofer Sailing Club",
-    category: "Outdoors",
-    location: "Memorial Union pier",
-    coords: [43.077, -89.4],
-    cost: "$$",
-    bestTime: "Spring through fall",
-    goodFor: "Learning to sail, meeting people",
-    description:
-      "One of the largest inland sailing clubs in the country, run out of the Memorial Union. Membership gets you lessons and access to the fleet on Lake Mendota.",
   },
   {
     id: "southwest-commuter-path",
@@ -505,18 +431,6 @@ export const ACTIVITIES: Activity[] = [
     goodFor: "School spirit, big groups",
     description:
       "Cheer on Badger basketball or hockey with the student section. The band and the crowd make it worth going even if you don't follow the sport.",
-  },
-  {
-    id: "concerts-on-the-square",
-    name: "Concerts on the Square",
-    category: "Entertainment",
-    location: "Capitol Square",
-    coords: [43.0747, -89.3842],
-    cost: "Free",
-    bestTime: "Wednesday evenings in summer",
-    goodFor: "Picnics, big groups",
-    description:
-      "The Wisconsin Chamber Orchestra plays free outdoor concerts on the Capitol lawn each summer. Bring a blanket, a picnic, and some friends.",
   },
   {
     id: "the-orpheum",
@@ -642,6 +556,99 @@ export const ACTIVITIES: Activity[] = [
     goodFor: "Thrifting, coffee, people-watching",
     description:
       "A funky east side street packed with independent shops, the Willy Street Co-op, and plenty of places to eat. Visit during the Willy Street Fair in September.",
+  },
+];
+
+/**
+ * Activities hidden from the site until we have a photo for them.
+ * Move one back into ACTIVITIES once it has an entry in lib/activity-images.json.
+ */
+export const HIDDEN_ACTIVITIES: Activity[] = [
+  {
+    id: "babcock-dairy-store",
+    name: "Babcock Dairy Store",
+    category: "Food",
+    location: "Babcock Hall, Linden Dr",
+    coords: [43.0753, -89.4126],
+    cost: "$",
+    bestTime: "Any warm afternoon",
+    goodFor: "Ice cream runs",
+    description:
+      "Ice cream made on campus by UW's own dairy plant. Try a seasonal flavor and you'll understand the hype.",
+  },
+  {
+    id: "greenbush-bakery",
+    name: "Greenbush Bakery",
+    category: "Food",
+    location: "Regent St",
+    coords: [43.0681, -89.4061],
+    cost: "$",
+    bestTime: "Late night",
+    goodFor: "Donut runs, study breaks",
+    description:
+      "A tiny kosher bakery famous for its apple fritters and sour cream donuts. It's open late, so it's the perfect end to a long night.",
+  },
+  {
+    id: "library-mall-food-carts",
+    name: "Library Mall Food Carts",
+    shortName: "Library Mall Carts",
+    category: "Food",
+    location: "Library Mall, end of State St",
+    coords: [43.0757, -89.3995],
+    cost: "$",
+    bestTime: "Weekday lunch, warm months",
+    goodFor: "Cheap lunch between classes",
+    description:
+      "A rotating lineup of food carts parks at the foot of State Street. Walk the row, pick whatever smells best, and eat on the steps of the Memorial Library.",
+  },
+  {
+    id: "short-stack-eatery",
+    name: "Short Stack Eatery",
+    category: "Food",
+    location: "Gorham St, off State St",
+    coords: [43.0742, -89.3908],
+    cost: "$$",
+    bestTime: "Brunch",
+    goodFor: "Brunch with friends",
+    description:
+      "A breakfast spot built around pancakes and scratch-made comfort food, with a Bloody Mary bar that draws a weekend line.",
+  },
+  {
+    id: "elver-park-sledding",
+    name: "Sledding at Elver Park",
+    shortName: "Elver Park Sledding",
+    category: "Outdoors",
+    location: "West side, off McKenna Blvd",
+    coords: [43.0412, -89.5068],
+    cost: "Free",
+    bestTime: "After a big snowfall",
+    goodFor: "Friends, snow days",
+    description:
+      "One of the biggest sledding hills in the city. Grab a cafeteria tray or a real sled and make a day of it after the first good snow.",
+  },
+  {
+    id: "hoofer-sailing",
+    name: "Hoofer Sailing Club",
+    category: "Outdoors",
+    location: "Memorial Union pier",
+    coords: [43.077, -89.4],
+    cost: "$$",
+    bestTime: "Spring through fall",
+    goodFor: "Learning to sail, meeting people",
+    description:
+      "One of the largest inland sailing clubs in the country, run out of the Memorial Union. Membership gets you lessons and access to the fleet on Lake Mendota.",
+  },
+  {
+    id: "concerts-on-the-square",
+    name: "Concerts on the Square",
+    category: "Entertainment",
+    location: "Capitol Square",
+    coords: [43.0747, -89.3842],
+    cost: "Free",
+    bestTime: "Wednesday evenings in summer",
+    goodFor: "Picnics, big groups",
+    description:
+      "The Wisconsin Chamber Orchestra plays free outdoor concerts on the Capitol lawn each summer. Bring a blanket, a picnic, and some friends.",
   },
 ];
 

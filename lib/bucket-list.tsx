@@ -13,6 +13,9 @@ import {
   type ReactNode,
 } from "react";
 import { X } from "lucide-react";
+import { ACTIVITIES } from "./activities";
+
+const VISIBLE_IDS = new Set(ACTIVITIES.map((a) => a.id));
 
 export type Entry = {
   status: "saved" | "completed";
@@ -178,7 +181,10 @@ export function BucketListProvider({ children }: { children: ReactNode }) {
   );
 
   const value = useMemo<BucketListContextValue>(() => {
-    const all = Object.values(entries);
+    // Only count activities that are visible on the site (saved hidden ones are ignored).
+    const all = Object.entries(entries)
+      .filter(([id]) => VISIBLE_IDS.has(id))
+      .map(([, e]) => e);
     return {
       entries,
       hydrated,

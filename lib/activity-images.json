@@ -1,0 +1,389 @@
+{
+  "allen-centennial-garden": {
+    "src": "/images/activities/allen-centennial-garden.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Wikimapeditor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allen_Centennial_Garden.jpg"
+  },
+  "art-fair-on-the-square": {
+    "src": "/images/activities/art-fair-on-the-square.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Professorcornbread (Uploads)",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Art_fair_on_the_square_2006.jpg"
+  },
+  "badger-volleyball": {
+    "src": "/images/activities/badger-volleyball.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "Setter4ever87",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:UW_Field_House_10-4-17.jpg"
+  },
+  "barrymore-theatre": {
+    "src": "/images/activities/barrymore-theatre.jpg",
+    "width": 1280,
+    "height": 1489,
+    "author": "Anne Marie Peterson from Madison, WI, US",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Historic_Barrymore_Theatre,_Madison,_Wisconsin_(15533396386).jpg"
+  },
+  "bascom-hill": {
+    "src": "/images/activities/bascom-hill.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BascomHill.JPG"
+  },
+  "camp-randall-stadium": {
+    "src": "/images/activities/camp-randall-stadium.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Greenstrat at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camp_Randall_Stadium_stands.jpg"
+  },
+  "chazen-museum-of-art": {
+    "src": "/images/activities/chazen-museum-of-art.jpg",
+    "width": 1280,
+    "height": 701,
+    "author": "James Steakley",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chazen_Museum_of_Art_-_exterior.jpg"
+  },
+  "comedy-on-state": {
+    "src": "/images/activities/comedy-on-state.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madison_August_2022_090_(Comedy_on_State).jpg"
+  },
+  "dane-county-farmers-market": {
+    "src": "/images/activities/dane-county-farmers-market.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Kznf",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dane_county_farmers_market.JPG"
+  },
+  "garver-feed-mill": {
+    "src": "/images/activities/garver-feed-mill.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "TheCatalyst31",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garver_Feed_Mill.jpg"
+  },
+  "glass-nickel-pizza": {
+    "src": "/images/activities/glass-nickel-pizza.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Danielmeter",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo_truck-sideview.jpg"
+  },
+  "henry-vilas-zoo": {
+    "src": "/images/activities/henry-vilas-zoo.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Corey Coyle",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henry_Vilas_Zoo_Sign_-_panoramio.jpg"
+  },
+  "high-noon-saloon": {
+    "src": "/images/activities/high-noon-saloon.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Corey Coyle",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:High_Noon_Saloon_-_panoramio.jpg"
+  },
+  "ians-pizza": {
+    "src": "/images/activities/ians-pizza.jpg",
+    "width": 1280,
+    "height": 1707,
+    "author": "Corey Coyle",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ian%27s_Pizza_-_panoramio.jpg"
+  },
+  "james-madison-park": {
+    "src": "/images/activities/james-madison-park.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madison_August_2022_030_(James_Madison_Park_and_Lake_Mendota).jpg"
+  },
+  "kohl-center": {
+    "src": "/images/activities/kohl-center.jpg",
+    "width": 1280,
+    "height": 766,
+    "author": "Pbrown111 at English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kohl_Center.jpg"
+  },
+  "lake-monona-kayaking": {
+    "src": "/images/activities/lake-monona-kayaking.jpg",
+    "width": 1024,
+    "height": 683,
+    "author": "Carol M. Highsmith, via rawpixel",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/153584064@N07/44436792610"
+  },
+  "lakeshore-path": {
+    "src": "/images/activities/lakeshore-path.jpg",
+    "width": 1280,
+    "height": 1170,
+    "author": "Daniel J Simanek",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lakeshore_Path1_-_Madison,_WI.jpg"
+  },
+  "lao-laan-xang": {
+    "src": "/images/activities/lao-laan-xang.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Corey Coyle",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lao_Laan_Xang_Restaurant_-_panoramio.jpg"
+  },
+  "madison-mallards": {
+    "src": "/images/activities/madison-mallards.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Corey Coyle",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Duck_Pond_Entrance,_home_of_the_Madison_Mallards_Baseball_Club_-_panoramio.jpg"
+  },
+  "madison-museum-of-contemporary-art": {
+    "src": "/images/activities/madison-museum-of-contemporary-art.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Franco Folini from San Francisco, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madison_Museum_of_Contemporary_Art.jpg"
+  },
+  "majestic-theatre": {
+    "src": "/images/activities/majestic-theatre.jpg",
+    "width": 1280,
+    "height": 1707,
+    "author": "Warren LeMay from Covington, KY, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Majestic_Theatre,_King_Street,_Madison,_WI_(52744540382).jpg"
+  },
+  "memorial-union-terrace": {
+    "src": "/images/activities/memorial-union-terrace.jpg",
+    "width": 1280,
+    "height": 777,
+    "author": "Richard Hurd from Green Bay, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Memorial_Union,_Madison,_06-27-2015_1071_(19253805408).jpg"
+  },
+  "michaels-frozen-custard": {
+    "src": "/images/activities/michaels-frozen-custard.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Corey Coyle",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michael%27s_Frozen_Custard_-_panoramio_(1).jpg"
+  },
+  "mickies-dairy-bar": {
+    "src": "/images/activities/mickies-dairy-bar.jpg",
+    "width": 1280,
+    "height": 889,
+    "author": "Daniel Simanek",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mickies_Dairy_Bar_(Madison,_WI).jpg"
+  },
+  "monona-terrace": {
+    "src": "/images/activities/monona-terrace.jpg",
+    "width": 1280,
+    "height": 632,
+    "author": "McGhiever",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monona_Terrace_from_Lake_Monona.jpg"
+  },
+  "observatory-hill": {
+    "src": "/images/activities/observatory-hill.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "James Steakley",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Observatory_Hill_Mound_Group_2.jpg"
+  },
+  "olbrich-botanical-gardens": {
+    "src": "/images/activities/olbrich-botanical-gardens.jpg",
+    "width": 1280,
+    "height": 1382,
+    "author": "Mike Goad",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olbrich_Thai_Pavilion_(10950450435).jpg"
+  },
+  "overture-center": {
+    "src": "/images/activities/overture-center.jpg",
+    "width": 1280,
+    "height": 1792,
+    "author": "Chris Rycroft from Madison, Wisconsin, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Large_atrium_in_the_Overture_Center_for_the_Arts_(53859153725).jpg"
+  },
+  "picnic-point": {
+    "src": "/images/activities/picnic-point.jpg",
+    "width": 1280,
+    "height": 1933,
+    "author": "Richard Hurd from Green Bay, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:UW_Madison-Picnic_Point_10-5-2011_046_(6351030913).jpg"
+  },
+  "southwest-commuter-path": {
+    "src": "/images/activities/southwest-commuter-path.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "SecretName101",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southwest_Commuter_Path_in_Madison,_WI_(January_2025)_IMG0193.jpg"
+  },
+  "tenney-park-skating": {
+    "src": "/images/activities/tenney-park-skating.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "TheCatalyst31",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tenney_Park_footbridge.JPG"
+  },
+  "the-old-fashioned": {
+    "src": "/images/activities/the-old-fashioned.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Corey Coyle",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Old_Fashioned_-_panoramio.jpg"
+  },
+  "the-orpheum": {
+    "src": "/images/activities/the-orpheum.jpg",
+    "width": 1280,
+    "height": 1920,
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madison_August_2022_092_(The_Orpheum_Theatre).jpg"
+  },
+  "the-sett-bowling": {
+    "src": "/images/activities/the-sett-bowling.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin%E2%80%93Madison_August_2022_53_(Union_South).jpg"
+  },
+  "union-south-movies": {
+    "src": "/images/activities/union-south-movies.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:University_of_Wisconsin%E2%80%93Madison_August_2022_52_(Union_South).jpg"
+  },
+  "uw-arboretum": {
+    "src": "/images/activities/uw-arboretum.jpg",
+    "width": 1280,
+    "height": 857,
+    "author": "Yinan Chen",
+    "license": "Public Domain",
+    "licenseUrl": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gfp-wisconsin-madison-clouds-over-trees-uw-arboretum.jpg"
+  },
+  "uw-geology-museum": {
+    "src": "/images/activities/uw-geology-museum.jpg",
+    "width": 500,
+    "height": 375,
+    "author": "Forsavious",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boaz_Mastodon.jpg"
+  },
+  "washburn-observatory": {
+    "src": "/images/activities/washburn-observatory.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "Chris Rycroft from Madison, Wisconsin, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Washburn_Observatory_(53325395055).jpg"
+  },
+  "willy-street": {
+    "src": "/images/activities/willy-street.jpg",
+    "width": 1280,
+    "height": 989,
+    "author": "Richard Hurd from Leland, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mickey%27s_on_Williamson_in_Madison_WI_01-21-2013_039_(8405640731).jpg"
+  },
+  "wingra-boats": {
+    "src": "/images/activities/wingra-boats.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Heidi Meudt",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Wingra_July_2026_2.jpg"
+  },
+  "wisconsin-state-capitol": {
+    "src": "/images/activities/wisconsin-state-capitol.jpg",
+    "width": 1280,
+    "height": 960,
+    "author": "Wikideas1",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wisconsin_State_Capitol_Building_6.jpg"
+  },
+  "wisconsin-veterans-museum": {
+    "src": "/images/activities/wisconsin-veterans-museum.jpg",
+    "width": 1280,
+    "height": 853,
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madison_August_2022_086_(Wisconsin_Veterans_Museum).jpg"
+  }
+}

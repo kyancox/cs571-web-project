@@ -6,7 +6,9 @@ import {
   UtensilsCrossed,
   type LucideIcon,
 } from "lucide-react";
+import Image from "next/image";
 import type { Category } from "@/lib/activities";
+import { getActivityImage } from "@/lib/activity-images";
 
 type CategoryStyle = {
   Icon: LucideIcon;
@@ -72,17 +74,43 @@ export function CategoryTag({
   );
 }
 
-/** Image slot: a category-tinted cover until real photos exist. */
+/**
+ * Activity photo, or a category-tinted placeholder when we don't have one yet.
+ * Photos come from lib/activity-images.json (see scripts/fetch-activity-images.mjs).
+ */
 export function ActivityCover({
+  activityId,
+  alt,
   category,
   className = "",
   iconSize = 40,
+  sizes = "100vw",
+  preload = false,
 }: {
+  activityId: string;
+  alt: string;
   category: Category;
   className?: string;
   iconSize?: number;
+  sizes?: string;
+  preload?: boolean;
 }) {
   const s = CATEGORY_STYLES[category];
+  const photo = getActivityImage(activityId);
+  if (photo) {
+    return (
+      <div className={`relative overflow-hidden rounded-md ${s.soft} ${className}`}>
+        <Image
+          src={photo.src}
+          alt={alt}
+          fill
+          sizes={sizes}
+          preload={preload}
+          className="object-cover"
+        />
+      </div>
+    );
+  }
   return (
     <div
       className={`relative flex items-center justify-center overflow-hidden rounded-md bg-gradient-to-br ${s.cover} ${className}`}
